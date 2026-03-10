@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy 2-BHK Flat</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="property.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Oasis Grandstand - Flats for Rent</h1>
+            <p class="tagline">Quality Flats Available for Rent</p>
+            <p class="direct-owner-badge">✓ Direct Owner Properties • No Brokerage</p>
+        </div>
+    </header>
+
+    <nav class="mobile-nav">
+        <a href="index.html" class="nav-link">← Back</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section class="property-detail">
+                <!-- Image Slider -->
+                <div class="slider-container">
+                    <div class="slider">
+                        <img class="slide active" src="images/flat2-1.jpg" alt="Living Room">
+                        <img class="slide" src="images/flat2-2.jpg" alt="Master Bedroom">
+                        <img class="slide" src="images/flat2-3.jpg" alt="Kitchen">
+                        <img class="slide" src="images/flat2-4.jpg" alt="Bathroom">
+                        <img class="slide" src="images/flat2-5.jpg" alt="Bedroom Almira">
+                        <img class="slide" src="images/flat2-6.jpg" alt="Bedroom2">
+                    </div>
+                    <button class="slider-btn prev" onclick="changeSlide(-1)">❮</button>
+                    <button class="slider-btn next" onclick="changeSlide(1)">❯</button>
+                    <div class="slider-dots">
+                        <span class="dot active" onclick="currentSlide(0)"></span>
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                </div>
+
+                <!-- Video Section -->
+                <!--<div class="video-section">
+                    <h2>📹 Virtual Tour</h2>
+                    <div class="video-container">
+                        <iframe width="100%" height="500" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <p class="video-description">Watch a complete virtual tour of our premium 3-bedroom flat. See the spacious living areas, modern kitchen, master bedrooms, balcony, and premium amenities.</p>
+                </div>-->
+
+                <!-- Property Details -->
+                <div class="property-info">
+                    <div class="no-brokerage-badge">✓ Direct Owner • No Brokerage • No Middleman</div>
+                    <h1>Spacious 3-Bedroom Flat</h1>
+                    <p class="location">📍 Oasis Grandstand, Tower 10, Flat 309</p>
+                    <p class="price-large">₹18,000 <span class="period">/month</span></p>
+
+                    <!-- Basic Info -->
+                    <div class="property-stats">
+                        <div class="stat">
+                            <span class="stat-value">2</span>
+                            <span class="stat-label">Bedrooms</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">3</span>
+                            <span class="stat-label">Balcony</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">1</span>
+                            <span class="stat-label">Bathrooms</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">790</span>
+                            <span class="stat-label">sq ft</span>
+                        </div>
+                    </div>
+
+                    <!-- Description -->
+                    <div class="description-section">
+                        <h2>Description</h2>
+                        <p>Premium spacious apartment perfect for families seeking comfort and luxury. Located in prestigious Oasis Grandstand with modern amenities and peaceful environment. This property offers ample space, excellent natural lighting, and premium finishes throughout. Ideal for families who value quiet living with excellent connectivity to schools, hospitals, and shopping centers.</p>
+                    </div>
+
+                    <!-- Amenities -->
+                    <div class="amenities-section">
+                        <h2>Amenities</h2>
+                        <ul class="amenities-list">
+                            <li>✓ Fully Furnished</li>
+                            <li>✓ Air Conditioning</li>
+                            <li>✓ Dedicated Parking</li>
+                            <li>✓ 24/7 Water Supply</li>
+                            <li>✓ Electricity Backup</li>
+                            <li>✓ Security</li>
+                            <li>✓ Sofa Set</li>
+                            <li>✓ Double Beds in Bedrooms</li>
+                            <li>✓ Bedside Tables</li>
+                            <li>✓ Orthopedic Mattress on Beds</li>
+                            <li>✓ Washing Machine</li>
+                            <li>✓ Refrigerator</li>
+                            <li>✓ RO Water Purifier</li>
+                            <li>✓ Kitchen Chimney</li>
+                            <li>✓ Fan & Lights</li>
+                            <li>✓ Bathroom Mirror & Exhaust Fan</li>
+                            <li>✓ 3 Burner gas Stoves</li>
+                            <li>✓ Smart LED TV With Unit </li>
+                            <li>✓ Bathroom Geyser</li>
+                            <li>✓ Doorbell</li>
+                        </ul>
+                    </div>
+
+                    <!-- Features -->
+                    <div class="features-section">
+                        <h2>Key Features</h2>
+                        <ul class="features-list">
+                            <li>Modern modular kitchen</li>
+                            <li>Well-lit living room</li>
+                            <li>Split AC in bedrooms</li>
+                            <li>Wardrobe Closet in Bedrooms</li>
+                            <li>Premium quality curtains</li>
+                            <li>Attached covered balcony</li>
+                            <li>Attached modern bathroom</li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="contact-section">
+                        <h2>Interested?</h2>
+                        <p>Contact us for more details or to schedule a visit.</p>
+                        <a class="whatsapp" href="https://wa.me/919876543210" target="_blank">Chat on WhatsApp</a>
+                        <button class="btn btn-primary btn-large">Call: 8130535050</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Google Map Section -->
+        <section class="map-section">
+            <div class="container">
+                <h2>Find Us on Map</h2>
+                <div class="map-container">
+                    <iframe src="https://maps.google.com/maps?q=oasis+grandstand+yamuna+expressway&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>👤 Name: <strong>Rampal Rao</strong></p>
+                    <p>📧 Email: <a href="mailto:contact@rprao.2k7@gmail.com">rprao.2k7@gmail.com</a></p>
+                    <p>📱 Phone: <a href="tel:+91-8130535050">+91-8130535050/8860709808</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Address</h4>
+                    <p>Oasis Grandstand, Tower 10, Flat 309<br />Sector 22D, Yamuna Expressway<br />Near Jewar Airport</p>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2026 Rampal Rao Properties. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="property.js"></script>
+</body>
+</html>

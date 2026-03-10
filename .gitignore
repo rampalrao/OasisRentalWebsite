@@ -1,0 +1,27 @@
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project files
+*.iml
+.classpath
+.project
+.settings/
+
+# Node modules (if needed in future)
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+
+# OS specific
+Thumbs.db
+.AppleDouble
+.LSOverride
+

@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Allow all crawlers to access all pages
+Allow: /
+
+# Sitemap location
+Sitemap: https://rentmyflat.co.in/sitemap.xml
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1
+
+# Disallow access to certain directories if needed (uncomment if required)
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /temp/
+
+# Allow access to CSS, JS, and image files
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.svg
+Allow: *.ico

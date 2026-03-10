@@ -1,0 +1,156 @@
+# COPY-PASTE READY COMMANDS
+
+## ⚠️ IMPORTANT BEFORE YOU START
+
+1. Create GitHub account at https://github.com (if you don't have one)
+2. Create new repository at https://github.com/new
+3. Name it: **OasisRentalWebsite**
+4. Copy the HTTPS URL GitHub gives you
+5. Replace **YOUR_USERNAME** below with your actual GitHub username
+
+---
+
+## COMMAND 1: Add Remote Repository
+
+```
+git remote add origin https://github.com/YOUR_USERNAME/OasisRentalWebsite.git
+```
+
+**What to do:**
+1. Copy the entire command above
+2. Replace YOUR_USERNAME with your GitHub username
+3. Paste in terminal
+4. Press Enter
+
+**Example:**
+```
+git remote add origin https://github.com/john_doe/OasisRentalWebsite.git
+```
+
+---
+
+## COMMAND 2: Rename Branch to Main
+
+```
+git branch -M main
+```
+
+**What to do:**
+1. Copy the command above
+2. Paste in terminal
+3. Press Enter
+
+**No changes needed!**
+
+---
+
+## COMMAND 3: Push to GitHub
+
+```
+git push -u origin main
+```
+
+**What to do:**
+1. Copy the command above
+2. Paste in terminal
+3. Press Enter
+4. When prompted for username, enter your GitHub username
+5. When prompted for password, paste your Personal Access Token
+6. Wait for push to complete
+
+**Note:** You may see warnings - that's normal!
+
+---
+
+## FULL SEQUENCE (All Commands Together)
+
+Replace YOUR_USERNAME and copy-paste this entire block:
+
+```bash
+cd /Users/rampal.rao/snapdeal/projects/OasisRentalWebsite
+git remote add origin https://github.com/YOUR_USERNAME/OasisRentalWebsite.git
+git branch -M main
+git push -u origin main
+```
+
+---
+
+## GETTING YOUR PERSONAL ACCESS TOKEN
+
+If you don't have a token:
+
+1. Go to: https://github.com/settings/tokens
+2. Click: "Generate new token"
+3. Select scope: **repo** (full control of private repositories)
+4. Click: "Generate token"
+5. Copy the token (shows only once!)
+6. Use this token as your password when pushing
+
+---
+
+## VERIFY SUCCESS
+
+After pushing, run:
+
+```
+git remote -v
+```
+
+You should see:
+```
+origin  https://github.com/YOUR_USERNAME/OasisRentalWebsite.git (fetch)
+origin  https://github.com/YOUR_USERNAME/OasisRentalWebsite.git (push)
+```
+
+---
+
+## FUTURE: Updating Your Code
+
+When you make changes:
+
+```bash
+git add .
+git commit -m "Your description of changes"
+git push origin main
+```
+
+---
+
+## TROUBLESHOOTING QUICK FIX
+
+If you get an error:
+
+### Error: "remote origin already exists"
+
+Run this:
+```
+git remote remove origin
+```
+
+Then run Command 1 again.
+
+### Error: "authentication failed"
+
+Make sure you're using Personal Access Token, not your password.
+
+### Error: "fatal: not a git repository"
+
+Make sure you're in the right directory:
+```
+cd /Users/rampal.rao/snapdeal/projects/OasisRentalWebsite
+```
+
+---
+
+## SUCCESS INDICATORS
+
+✅ Command completes without errors
+✅ No error messages in terminal
+✅ Can visit https://github.com/YOUR_USERNAME/OasisRentalWebsite
+✅ See all your files on GitHub
+✅ README.md displays
+
+---
+
+**That's it! Your code will be on GitHub! 🎉**
+

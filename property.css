@@ -343,7 +343,6 @@
     box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4);
 }
 
-/* Contact Button */
 .contact-section .btn-primary {
     background: linear-gradient(135deg, #FF6B6B 0%, #FF8E72 100%);
     color: white;
@@ -355,16 +354,15 @@
     min-height: 48px;
     box-shadow: 0 4px 12px rgba(255, 107, 107, 0.3);
     transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
 }
 
 .contact-section .btn-primary:hover,
 .contact-section .btn-primary:active {
     transform: translateY(-2px);
     box-shadow: 0 6px 16px rgba(255, 107, 107, 0.4);
-}
-
-.contact-section .btn-primary:active {
-    transform: translateY(0);
 }
 
 /* Tablet Responsiveness */
